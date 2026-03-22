@@ -1,206 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARDHA SAI MUTYALA - Research Scholar Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pardha Sai Mutyala | Portfolio</title>
+  <meta name="description" content="Portfolio of Pardha Sai Mutyala, PhD Scholar at IIT Gandhinagar working in combustion and CFD." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <h1 class="logo">PARDHA SAI MUTYALA</h1>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills-interests">Skills & Interests</a></li>
-                <li><a href="#teaching-experience">Teaching Experience</a></li>
-                <li><a href="#conferences">Conferences Attended</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="site-title">Pardha Sai Mutyala</a>
 
-    <main>
-        <section id="hero" class="hero-section">
-            <div class="container">
-                <img src="profile-modified.png" alt="Your Profile Picture" class="profile-pic">
-                <h2>Hello, I'm Pardha</h2>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/pardha-sai-mutyala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/PARDHA-SAI-MUTYALA" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://scholar.google.com/citations?user=XwRqE6YAAAAJ&hl=en" target="_blank" aria-label="Google Scholar (if applicable)"><i class="fas fa-graduation-cap"></i></a>
-                </div>
-            </div>
-        </section>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
 
-        <section id="about" class="container section-padding">
-            <h2>About Me</h2>
-            <p>I'm a research scholar at IIT Gandhinagar, working in the areas of combustion and computational fluid dynamics (CFD). My work focuses on multiphase combustion, thermo-transport processes, and numerical methods. I'm especially interested in using simulations to better understand how combustion works by diving deep into the underlying physics.</p>
-        </section>
+      <nav class="site-nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#conference">Conference</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <section id="education" class="container section-padding">
-            <h2>Education</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <h3>Indian Institute of Technology Gandhinagar (IITGN), Gujarat</h3>
-                    <p><strong>Ph.D. in Mechanical Engineering (On-going)</strong></p>
-                    <p>Joined: 2023</p>
-                    <p>CGPA: 9.81/10</p>
-                </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">PhD Scholar | Combustion & CFD | IIT Gandhinagar</p>
+          <h1>Pardha Sai Mutyala</h1>
+          <p class="hero-subtext">
+            I am a PhD scholar at IIT Gandhinagar working on combustion modeling.
+            My research focuses on multiphase combustion, thermo-transport processes, and numerical methods,
+            with an emphasis on high-fidelity simulations to understand the underlying physics of combustion phenomena.
+          </p>
 
-                <div class="education-item">
-                    <h3>Rajiv Gandhi University of Knowledge and Technologies (RGUKT), Srikakulam, A.P</h3>
-                    <p><strong>B.Tech in Mechanical Engineering</strong></p>
-                    <p>2019 – 2023</p>
-                    <p>CGPA: 9.64/10</p>
-                </div>
-
-                <div class="education-item">
-                    <h3>Rajiv Gandhi University of Knowledge and Technologies (RGUKT), Srikakulam, A.P</h3>
-                    <p><strong>Pre-University Course (PUC)</strong></p>
-                    <p>2017 – 2019</p>
-                    <p>CGPA: 8.5/10</p>
-                </div>
-
-                <div class="education-item">
-                    <h3>Z.P.P.H. School, Kaleru, A.P.</h3>
-                    <p><strong>SSC</strong></p>
-                    <p>2012 – 2017</p>
-                    <p>CGPA: 9.8/10</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills-interests" class="container section-padding">
-            <h2 class="skills-interests-heading">Skills & Subjects of Interest</h2>
-            <div class="skills-interests-content">
-                <div class="skills-column">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>OpenFOAM</li>
-                        <li>C++</li>
-                        <li>CFD</li>
-                        <li>Microsoft Office</li>
-                    </ul>
-                </div>
-                <div class="subjects-column">
-                    <h3>Subjects</h3>
-                    <ul>
-                        <li>Thermodynamics</li>
-                        <li>Fluid Mechanics</li>
-                        <li>Combustion</li>
-                        <li>CFD</li>
-                        <li>Multiphase Flows</li>
-                        <li>Propulsion</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="teaching-experience" class="container section-padding">
-            <h2>Teaching Experience</h2>
-            <div class="teaching-experience-grid">
-                <div class="teaching-role">
-                    <h3>Teaching Assistant</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>COURSE CODE</th>
-                                <th>COURSE NAME</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-label="COURSE CODE">HS191</td>
-                                <td data-label="COURSE NAME">Introduction to Writing</td>
-                            </tr>
-                            <tr>
-                                <td data-label="COURSE CODE">MA104</td>
-                                <td data-label="COURSE NAME">ODEs</td>
-                            </tr>
-                            <tr>
-                                <td data-label="COURSE CODE">ME207</td>
-                                <td data-label="COURSE NAME">Fluid Dynamics</td>
-                            </tr>
-                            <tr>
-                                <td data-label="COURSE CODE">FP601</td>
-                                <td data-label="COURSE NAME">Aarohan</td>
-                            </tr>
-                            <tr>
-                                <td data-label="COURSE CODE">ME605</td>
-                                <td data-label="COURSE NAME">CFD</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="teaching-role">
-                    <h3>GTF (Graduate Teaching Fellow)</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>COURSE CODE</th>
-                                <th>COURSE NAME</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-label="COURSE CODE">ES 337/632</td>
-                                <td data-label="COURSE NAME">Energy Systems</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <section id="conferences" class="container section-padding">
-            <h2>Conferences Attended</h2>
-            <div class="conference-item">
-                <h3>15th Asia-Pacific Conference on Combustion, 18-22 May 2025, Singapore:</h3>
-                <p><strong>Paper Title:</strong> A Critical Examination of Computational Model of Unsteady Combustion of Liquid Monopropellants in a Strand Burner</p>
-                <p><strong>Authors:</strong> Mutyala Pardha Sai, SK Hossen Ali, Dilip Srinivas Sundaram</p>
-                <p><strong>Type:</strong> Oral</p>
-                <div class="conference-images">
-                    <img src="ASPACC.jpg" alt="at Conference Stage">
-                    <img src="ASPACC2.jpg" alt="at Suntech">
-                </div>
-            </div>
-        </section>
-
-        <section id="publications" class="container section-padding">
-            <h2>Publications & Preprints</h2>
-            <div class="placeholder-content">
-                <p>This section will be updated.</p>
-            </div>
-        </section>
-
-        <section id="contact" class="container section-padding">
-            <h2>Contact Me</h2>
-            <p>I'm always open to discussing new research ideas, collaborations, or academic opportunities. Feel free to reach out!</p>
-            <p class="contact-info">
-                Email: <a href="mailto:mutyala.sai@iitgn.ac.in">mutyala.sai@iitgn.ac.in</a><br>
-                Location: Gujarat, India.
-            </p>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Pardha Sai Mutyala. All rights reserved.</p>
-            <p>Built with Gemini and GitHub.</p>
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/pardha-sai-mutyala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/PARDHA-SAI-MUTYALA" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=XwRqE6YAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <div class="hero-image">
+          <img src="profile-modified.png" alt="Portrait of Pardha Sai Mutyala" />
+        </div>
+      </div>
+    </section>
+
+<section id="education" class="section alt">
+  <div class="container">
+    <h2>Education</h2>
+
+    <div class="card-list">
+
+      <article class="card">
+        <h3>Indian Institute of Technology Gandhinagar, Gandhinagar, Gujarat</h3>
+        <p><strong>PhD in Mechanical Engineering</strong></p>
+        <p>2023 – Present</p>
+        <p>CGPA: 9.81 / 10</p>
+      </article>
+
+      <article class="card">
+        <h3>Rajiv Gandhi University of Knowledge and Technologies (RGUKT), Srikakulam, A.P</h3>
+        <p><strong>B.Tech in Mechanical Engineering</strong></p>
+        <p>2019 – 2023</p>
+        <p>CGPA: 9.64 / 10</p>
+      </article>
+
+      <article class="card">
+        <h3>Rajiv Gandhi University of Knowledge and Technologies (RGUKT), Srikakulam, A.P</h3>
+        <p><strong>Pre-University Course (PUC)</strong></p>
+        <p>2017 – 2019</p>
+        <p>CGPA: 8.5 / 10</p>
+      </article>
+
+      <article class="card">
+        <h3>Z.P.P.H. School, Kaleru, A.P</h3>
+        <p><strong>SSC</strong></p>
+        <p>2012 – 2017</p>
+        <p>CGPA: 9.8 / 10</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <h2>Research Interests</h2>
+
+        <div class="two-column">
+          <div class="card">
+            <h3>Research Areas</h3>
+            <ul>
+              <li>Combustion</li>
+              <li>Computational Fluid Dynamics</li>
+              <li>Multiphase Flows</li>
+              <li>Numerical Methods</li>
+              <li>Heat and Mass Transfer</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Current Research Topics</h3>
+            <ul>
+              <li>Monopropellant combustion</li>
+              <li>Gel propellant combustion</li>
+              <li>Multiphase systems</li>
+              <li>Combustion modeling</li>
+              <li>Radiation modeling</li>
+              <li>Chemical kinetics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section alt">
+      <div class="container">
+        <h2>Teaching Experience</h2>
+
+        <div class="card">
+          <h3>Teaching Assistant</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Course Code</th>
+                  <th>Course Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>ME 605</td><td>Computational Fluid Dynamics</td></tr>
+                <tr><td>ME 207</td><td>Fluid Dynamics</td></tr>
+                <tr><td>MA 104</td><td>ODEs</td></tr>
+                <tr><td>HS 191</td><td>Introduction to Writing</td></tr>
+                <tr><td>FP 601</td><td>Aarohan</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Graduate Teaching Fellow</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Course Code</th>
+                  <th>Course Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>ME 605</td><td>Computational Fluid Dynamics</td></tr>
+                <tr><td>ES 337/632</td><td>Energy Systems</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conference" class="section">
+      <div class="container">
+        <h2>Conferences and Workshops</h2>
+
+        <article class="card conference-card">
+          <h3>15th Asia-Pacific Conference on Combustion</h3>
+          <p><strong>Date:</strong> 18–22 May 2025</p>
+          <p><strong>Location:</strong> Singapore</p>
+          <p><strong>Paper Title:</strong> A Critical Examination of Computational Model of Unsteady Combustion of Liquid Monopropellants in a Strand Burner</p>
+          <p><strong>Authors:</strong> Mutyala Pardha Sai, SK Hossen Ali, Dilip Srinivas Sundaram</p>
+          <p><strong>Presentation Type:</strong> Oral</p>
+
+          <div class="conference-gallery">
+            <img src="ASPACC.jpg" alt="Conference presentation photograph" />
+            <img src="ASPACC2.jpg" alt="Conference photograph" />
+          </div>
+        </article>
+        <article class="card conference-card">
+          <h3>International Workshop on Sustainable Energy, Power, and Propulsion</h3>
+          <p><strong>Date:</strong> 7–9 January 2026</p>
+          <p><strong>Location:</strong> India</p>
+          <p><strong>Paper Title:</strong> Optimized Unsteady Liquid Monopropellant Combustion Modeling</p>
+          <p><strong>Authors:</strong> Mutyala Pardha Sai, SK Hossen Ali, Dilip Srinivas Sundaram</p>
+          <p><strong>Presentation Type:</strong> Poster</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section alt">
+      <div class="container">
+        <h2>Publications</h2>
+        <div class="card">
+          <p>Will be updated</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>I’m open to collaborations and academic opportunities.</p>
+        <p><strong>Email:</strong> <a href="mailto:mutyala.sai@iitgn.ac.in">mutyala.sai@iitgn.ac.in</a></p>
+        <p><strong>Current Location:</strong> Gujarat, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Pardha Sai Mutyala. All rights reserved. Built with OpenAI and GitHub</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
